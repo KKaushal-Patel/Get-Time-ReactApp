@@ -1,4 +1,58 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  /* width: 100vh; */
+  background: url(./drew-beamer-5DD7-L4A4Uw-unsplash.jpg);
+  object-fit: fill;
+}
+
+.div_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 270px;
+  flex-direction: column;
+  align-items: center;
+}
+.button_prop {
+  font-size: x-large;
+  margin: 10px;
+  padding: 18px;
+  border-radius: 18px;
+  background-color: black;
+  color: beige;
+  border: 2px solid rgb(57, 216, 131);
+  /* box-shadow: fuchsia; */
+  outline: none;
+}
+.button_prop:hover {
+  /* transform: scale(1.1); */
+  /* margin: 20px; */
+  color: red;
+}
+.In_h1 {
+  font-size: 2.2rem;
+}
+.heading_style {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Blinker", sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: rgb(207, 202, 202);
+  padding: 20px;
+  margin-top: 5px;
+  border: 2px solid;
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Blinker&family=Playfair+Display:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Blinker&family=Orbitron:wght@700&family=Playfair+Display:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Blinker&family=El+Messiri:wght@600&family=Monoton&family=Orbitron:wght@700&family=Playfair+Display:wght@600&display=swap");
@@ -12,8 +66,6 @@
 .heading_style {
   font-size: 2rem;
   font-family: "Blinker", sans-serif;
-
-  /* font-family: "El Messiri", sans-serif; */
   letter-spacing: 1.5px;
   text-transform: capitalize;
   text-align: center;
@@ -21,3 +73,9 @@
   padding: 20px;
   margin: auto;
 }
+.emoji h1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5px;
+} */
